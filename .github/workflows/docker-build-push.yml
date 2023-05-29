@@ -25,3 +25,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/kvs-webrtc-base:latest
+          platforms: linux/amd64,linux/arm64
